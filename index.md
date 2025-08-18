@@ -70,7 +70,7 @@ title: Home
     </div>
   </header>
 
-  <!-- Hero -->
+  <!-- My Profile -->
   <main>
     <section class="mx-auto grid w-[min(1120px,92%)] items-center gap-10 py-10 md:grid-cols-2 lg:py-16"
              style="background:
@@ -120,7 +120,7 @@ title: Home
 
         <!-- photo -->
         <div class="mx-auto aspect-square w-[86%] max-w-[520px] overflow-hidden rounded-full ring-1 ring-cyan-300/25 glow">
-          <img src="{{ '/assets/img/hero.png' | relative_url }}" alt="Portrait" class="h-full w-full object-cover translate-y-1" />
+          <img src="{{ '/assets/img/HsuShun.png' | relative_url }}" alt="Portrait" class="h-full w-full object-cover translate-y-1" />
         </div>
 
         <!-- Decorative icons -->
