@@ -19,8 +19,8 @@ permalink: /about
     <div class="rounded-xl border border-white/10 bg-panel/60 p-5">
       <h3 class="mb-2 text-cyan-300 font-semibold">What I bring</h3>
       <ul class="list-disc pl-5 space-y-2 text-slate-200">
-        <li>Build-and-hunt approach: Zeek/Suricata sensors, Wazuh pipelines, meaningful dashboards.</li>
-        <li>Detections mapped to <strong>MITRE ATT&CK</strong> with test data and triage notes.</li>
+        <li>Build-and-hunt approach: Suricata sensors, Wazuh pipelines, meaningful dashboards.</li>
+        <li>Deploying Hybrid Intrusion Detection System (Signature + Anomaly {ML Integrated})</li>
         <li>Practical offensive labs (Nmap, Burp Suite, BOF) to surface real risk and validate controls.</li>
         <li>Clear deliverables: findings, reproductions, and prioritized defensive recommendations.</li>
       </ul>
@@ -30,12 +30,11 @@ permalink: /about
     <div>
       <h3 class="mb-2 text-cyan-300 font-semibold">Focus areas</h3>
       <div class="flex flex-wrap gap-2">
-        <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Threat Hunting</span>
+        <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">IDS</span>
         <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Detection Engineering</span>
         <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">SIEM (Wazuh)</span>
-        <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Network (Suricata/Zeek)</span>
+        <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Network (Suricata)</span>
         <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Web App Testing</span>
-        <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Azure Hardening</span>
         <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Python / Bash</span>
       </div>
     </div>
