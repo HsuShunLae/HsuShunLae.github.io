@@ -46,7 +46,6 @@ title: Home
     <div class="mx-auto flex w-[min(1120px,92%)] items-center gap-3 py-3">
       <a href="{{ '/' | relative_url }}" class="flex items-center gap-2 font-extrabold text-white">
         <span class="h-7 w-7 rounded-full bg-[radial-gradient(circle_at_30%_30%,#a9f7ff,#00f5ff_60%,#00a8ff)] shadow-[inset_0_0_20px_rgba(0,245,255,.6),0_0_12px_rgba(0,168,255,.5)]"></span>
-        <span>CSume<span class="font-light opacity-80">Security</span></span>
       </a>
 
       <!-- Mobile toggle -->
@@ -106,7 +105,9 @@ title: Home
         <div class="mt-4 flex flex-wrap gap-2">
           <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Wazuh</span>
           <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Suricata</span>
-          <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Azure</span>
+          <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Nmap</span>
+          <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">BurpSuite</span>
+          <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Bash</span>
           <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Python</span>
           <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">OWASP</span>
         </div>
