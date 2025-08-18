@@ -3,7 +3,6 @@ layout: null
 title: Home
 ---
 
-<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -79,10 +78,10 @@ title: Home
                radial-gradient(800px 450px at 20% 80%, rgba(0,168,255,.07), transparent 60%);">
       <!-- Copy -->
       <div>
-        <p class="mb-2 text-xs tracking-[0.18em] text-slate-300 uppercase">I’m <strong>Your Name</strong></p>
+        <p class="mb-2 text-xs tracking-[0.18em] text-slate-300 uppercase">I’m <strong>Hsu Shun Lae</strong></p>
 
         <h1 class="mb-4 text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
-          Provide the best
+          Uncover vulnerabilities through
           <span class="text-transparent bg-clip-text bg-gradient-to-r from-neonCyan to-neonBlue neon">
             cyber solutions
           </span><br/>
@@ -121,7 +120,7 @@ title: Home
         <div class="pointer-events-none absolute -inset-6 -z-10 rounded-full blur-2xl"
              style="background: radial-gradient(60% 60% at 50% 40%, rgba(0,245,255,.18), rgba(0,168,255,.08) 60%, transparent 61%);"></div>
 
-        <!-- circle photo -->
+        <!-- photo -->
         <div class="mx-auto aspect-square w-[86%] max-w-[520px] overflow-hidden rounded-full ring-1 ring-cyan-300/25 glow">
           <img src="{{ '/assets/img/hero.png' | relative_url }}" alt="Portrait" class="h-full w-full object-cover translate-y-1" />
         </div>
