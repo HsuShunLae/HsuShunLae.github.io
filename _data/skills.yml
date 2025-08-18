@@ -1,0 +1,26 @@
+blue_team:
+  - SIEM (Wazuh, Splunk)
+  - EDR (Velociraptor, Wazuh agent)
+  - Network: Zeek, Suricata
+  - Log pipelines: Filebeat, Logstash
+  - Threat hunting
+  - MITRE ATT&CK mapping
+
+red_team:
+  - Web vulns (OWASP Top 10)
+  - Recon (Nmap, Amass)
+  - Exploitation (Metasploit, manual)
+  - Post-ex & privilege escalation
+  - Scripting (Python, Bash)
+
+cloud:
+  - Azure Security Center, Defender for Cloud
+  - IAM, Key Vault, NSGs
+  - Terraform basics
+  - Container security
+
+tooling:
+  - Python, PowerShell, Bash
+  - Git/GitHub Actions
+  - Docker, Linux
+  - Regex, YARA, Sigma
