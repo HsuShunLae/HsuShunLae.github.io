@@ -120,7 +120,7 @@ title: Home
 
         <!-- photo -->
         <div class="mx-auto aspect-square w-[86%] max-w-[520px] overflow-hidden rounded-full ring-1 ring-cyan-300/25 glow">
-          <img src="{{ '/assets/img/HsuShun.png' | relative_url }}" alt="Portrait" class="h-full w-full object-cover object-center" />
+          <img src="{{ '/assets/img/HsuShun.png' | relative_url }}" alt="Portrait" class="h-full w-full object-cover [object-position:center_60%]" />
         </div>
 
         <!-- Decorative icons -->
