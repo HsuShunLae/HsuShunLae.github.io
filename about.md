@@ -69,10 +69,3 @@ permalink: /about
   </div>
 </div>
 
-<!-- Optional: certifications / interests -->
-<div class="mt-10 rounded-xl border border-white/10 bg-panel/60 p-5">
-  <h3 class="mb-2 text-cyan-300 font-semibold">Certifications & Interests</h3>
-  <p class="text-slate-200 text-sm">
-    (Add yours here) e.g., CompTIA Security+, AZ-900 • Interests: Blue team, DFIR, detection engineering, secure cloud.
-  </p>
-</div>
