@@ -1,71 +1,8 @@
 ---
-layout: null
+layout: page
 title: Home
 ---
 
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>{{ site.title }}</title>
-
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            base:    '#05070d',   // near-black
-            panel:   '#0b1220',
-            text:    '#e6f2ff',
-            mute:    '#95a7c0',
-            neonCyan:'#00f5ff',
-            neonBlue:'#00a8ff',
-          }
-        }
-      }
-    }
-  </script>
-
-  <style>
-    .hex-bg::before{
-      content:""; position:fixed; inset:0; z-index:-1; opacity:.08; pointer-events:none;
-      background-image:url("data:image/svg+xml,%3Csvg width='60' height='52' viewBox='0 0 60 52' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 2l25 14v20L30 50 5 36V16L30 2z M5 36l25 14 25-14' fill='none' stroke='%2300c8ff' stroke-width='1'/%3E%3C/svg%3E");
-      background-size:200px 170px;
-    }
-    .neon { text-shadow: 0 0 14px rgba(0,245,255,.55), 0 0 28px rgba(0,168,255,.35); }
-    .glow  { box-shadow: 0 0 36px rgba(0,245,255,.22), 0 0 12px rgba(0,168,255,.22); }
-  </style>
-</head>
-
-<body class="hex-bg bg-base text-text selection:bg-cyan-300/30">
-  <!-- Sticky nav -->
-  <header class="sticky top-0 z-20 border-b border-white/10 bg-base/80 backdrop-blur">
-    <div class="mx-auto flex w-[min(1120px,92%)] items-center gap-3 py-3">
-      <a href="{{ '/' | relative_url }}" class="flex items-center gap-2 font-extrabold text-white">
-        
-      </a>
-
-      <!-- Mobile toggle -->
-      <button id="navBtn"
-        class="ml-auto inline-flex items-center justify-center rounded-md p-2 text-slate-300 ring-1 ring-white/10 hover:text-white md:hidden"
-        aria-label="Toggle menu" aria-expanded="false">☰</button>
-
-      <!-- Menu -->
-      <nav id="menu" class="ml-auto hidden flex-col gap-3 rounded-lg border border-white/10 bg-base/95 p-3 md:static md:flex md:flex-row md:gap-5 md:border-0 md:bg-transparent md:p-0">
-        {% for item in site.nav %}
-          <a href="{{ item.link | relative_url }}"
-             class="text-slate-300 hover:text-white {% if page.url == item.link %}text-white{% endif %}">
-            {{ item.name }}
-          </a>
-        {% endfor %}
-      </nav>
-
-      <a href="{{ '/contact' | relative_url }}" class="ml-3 hidden rounded-lg border border-white/20 px-4 py-2 text-sm text-slate-200 hover:border-white/40 md:inline-block">
-        Let’s Talk
-      </a>
-    </div>
-  </header>
 
   <!-- My Profile -->
   <main>
@@ -138,19 +75,3 @@ title: Home
     </section>
   </main>
 
-  <footer class="border-t border-white/10 py-4">
-    <div class="mx-auto w-[min(1120px,92%)] text-sm text-slate-400">
-      © {{ 'now' | date: '%Y' }} Hsu Shun Lae - Cybersecurity
-    </div>
-  </footer>
-
-  <script>
-    const btn = document.getElementById('navBtn');
-    const menu = document.getElementById('menu');
-    btn.addEventListener('click', () => {
-      const wasHidden = menu.classList.toggle('hidden');
-      btn.setAttribute('aria-expanded', String(!wasHidden));
-    });
-  </script>
-</body>
-</html>
