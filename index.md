@@ -79,10 +79,10 @@ title: Home
 
         <h1 class="mb-4 text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
           Uncover vulnerabilities through
-          <span class="text-transparent bg-clip-text bg-gradient-to-r from-neonCyan to-neonBlue neon">
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
             cyber solutions
           </span><br/>
-          for your <span class="text-transparent bg-clip-text bg-gradient-to-r neon">security</span>
+          for your <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 to-neonBlue neon">security</span>
         </h1>
 
         <p class="max-w-prose text-mute">
