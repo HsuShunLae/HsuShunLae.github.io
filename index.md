@@ -9,7 +9,6 @@ title: Home
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>{{ site.title }}</title>
 
-  <!-- Tailwind via CDN (no build step) -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -28,7 +27,6 @@ title: Home
     }
   </script>
 
-  <!-- Tiny helpers for hex background + neon text/glow -->
   <style>
     .hex-bg::before{
       content:""; position:fixed; inset:0; z-index:-1; opacity:.08; pointer-events:none;
@@ -84,7 +82,7 @@ title: Home
           <span class="text-transparent bg-clip-text bg-gradient-to-r from-neonCyan to-neonBlue neon">
             cyber solutions
           </span><br/>
-          for your <span class="text-transparent bg-clip-text from-cyan-200 to-neonBlue neon">security</span>
+          for your <span class="text-transparent bg-clip-text bg-gradient from-cyan-200 to-neonBlue neon">security</span>
         </h1>
 
         <p class="max-w-prose text-mute">
