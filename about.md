@@ -38,10 +38,10 @@ permalink: /about
   <aside class="rounded-xl border border-white/10 bg-panel/60 p-5 space-y-3">
     <h3 class="text-cyan-300 font-semibold">Contact</h3>
     <p class="text-slate-200 text-sm">
-      Email: <a href="mailto:emails.im84@gmail.com" class="text-cyan-300 hover:underline">emails.im84@gmail.com</a><br/><br/><br/>
-      LinkedIn: <a href="https://www.linkedin.com/in/hsu-shun-lae-56a90b211/" class="text-cyan-300 hover:underline">/in/hsu-shun-lae-56a90b211</a><br/><br/><br/>
-      Phone: +353870029026 <br/><br/><br/>
-      Location: Dublin, Ireland<br/><br/><br/>
+      Email: <a href="mailto:emails.im84@gmail.com" class="text-cyan-300 hover:underline">emails.im84@gmail.com</a><br/><br/>
+      LinkedIn: <a href="https://www.linkedin.com/in/hsu-shun-lae-56a90b211/" class="text-cyan-300 hover:underline">/in/hsu-shun-lae-56a90b211</a><br/><br/>
+      Phone: +353870029026 <br/><br/>
+      Location: Dublin, Ireland<br/><br/>
     </p>
     <div class="flex gap-2 pt-1">
       <a href="/projects" class="rounded-xl bg-gradient-to-br from-neonCyan to-neonBlue px-4 py-2 text-sm font-semibold text-slate-900 glow">See Projects</a>
