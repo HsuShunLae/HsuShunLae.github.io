@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body class="bg-slate-950 text-slate-200">
+    {% include header.html %}   
+
+    <main class="mx-auto max-w-5xl px-6 py-12">
+      {{ content }}
+    </main>
+  </body>
+</html>
