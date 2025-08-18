@@ -117,16 +117,20 @@ title: Home
         <!-- soft glow -->
         <div class="pointer-events-none absolute -inset-6 -z-10 rounded-full blur-2xl"
              style="background: radial-gradient(60% 60% at 50% 40%, rgba(0,245,255,.18), rgba(0,168,255,.08) 60%, transparent 61%);"></div>
-        <!-- photo with circular frame -->
-        <div class="mx-auto relative aspect-square w-[86%] max-w-[520px]">
-          <!-- background circle (frame) -->
-          <div class="absolute inset-0 rounded-full bg-cyan-500/20"></div>
-          
-          <!-- smaller photo -->
-          <div class="relative mx-auto aspect-square w-[80%] overflow-hidden rounded-full ring-2 ring-cyan-400">
-            <img src="{{ '/assets/img/HsuShun.png' | relative_url }}"
-                 alt="Portrait"
-                 class="h-full w-full object-cover [object-position:center_55%]" />
+        <!-- PROFILE: smaller, centered photo inside a circular frame -->
+        <div class="relative mx-auto aspect-square w-[280px] md:w-[340px]">
+          <!-- outer frame (full size of wrapper) -->
+          <div class="absolute inset-0 rounded-full bg-cyan-500/20 ring-2 ring-cyan-400/60"></div>
+        
+          <!-- center the inner photo circle -->
+          <div class="absolute inset-0 grid place-items-center">
+            <!-- photo size as % of the frame; shrink/enlarge by changing this % -->
+            <div class="w-[72%] aspect-square overflow-hidden rounded-full ring-2 ring-cyan-300">
+              <img
+                src="{{ '/assets/img/HsuShun.png' | relative_url }}"
+                alt="Portrait"
+                class="w-full h-full object-cover [object-position:center_52%]" />
+            </div>
           </div>
         </div>
         <!-- Decorative icons -->
