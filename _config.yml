@@ -5,7 +5,6 @@ baseurl: "" # keep empty for user.github.io repo; else "/repo-name"
 url: "https://HsuShunLae.github.io"
 source: . 
 
-
 # Nav links
 nav:
   - name: Home
