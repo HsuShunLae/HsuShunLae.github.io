@@ -129,7 +129,7 @@ title: Home
               <img
                 src="{{ '/assets/img/HsuShun.png' | relative_url }}"
                 alt="Portrait"
-                class="w-full h-full object-cover [object-position:center_52%]" />
+                 />
             </div>
           </div>
         </div>
