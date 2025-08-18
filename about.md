@@ -10,9 +10,10 @@ permalink: /about
   <!-- Summary -->
   <div class="md:col-span-2 space-y-4">
     <p class="text-mute">
-      I’m <strong>Hsu Shun Lae</strong> — a security professional with hands-on homelab experience:
-      <strong>Suricata + Wazuh SIEM</strong>, custom <strong>Sigma/YARA</strong> detections, and cloud hardening.
-      I enjoy turning noisy logs into actionable detections and writing clear, concise incident notes.
+      I’m <strong>Hsu Shun Lae</strong> — a security professional with hands-on experience from my homelab:
+      <strong>Suricata + Wazuh SIEM</strong>, a self-built <strong>hybrid Intrusion Detection System</strong>,
+      and regular <strong>CTF competitions</strong>. I enjoy <strong>pentesting</strong>, <strong>log analysis & detection engineering</strong>,
+      and turning raw signals into clear, actionable findings.
     </p>
 
     <div class="rounded-xl border border-white/10 bg-panel/60 p-5">
