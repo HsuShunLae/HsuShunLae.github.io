@@ -118,10 +118,17 @@ title: Home
         <div class="pointer-events-none absolute -inset-6 -z-10 rounded-full blur-2xl"
              style="background: radial-gradient(60% 60% at 50% 40%, rgba(0,245,255,.18), rgba(0,168,255,.08) 60%, transparent 61%);"></div>
 
-        <!-- photo -->
-        <div class="mx-auto aspect-square w-[86%] max-w-[520px] overflow-hidden rounded-full ring-1 ring-cyan-300/25 glow">
-          <img src="{{ '/assets/img/HsuShun.png' | relative_url }}" alt="Portrait" class="h-full w-full object-cover [object-position:center_60%]" />
-        </div>
+        <!-- photo with circular frame -->
+        <div class="mx-auto relative aspect-square w-[86%] max-w-[520px]">
+          <!-- background circle (frame) -->
+          <div class="absolute inset-0 rounded-full bg-cyan-500/20"></div>
+          
+          <!-- smaller photo -->
+          <div class="relative mx-auto aspect-square w-[80%] overflow-hidden rounded-full ring-2 ring-cyan-400">
+            <img src="{{ '/assets/img/HsuShun.png' | relative_url }}"
+                 alt="Portrait"
+                 class="h-full w-full object-cover [object-position:center_55%]" />
+          </div>
 
         <!-- Decorative icons -->
         <div class="absolute left-4 top-4 grid h-10 w-10 place-content-center rounded-full border border-cyan-400/40 bg-cyan-400/10 backdrop-blur">
