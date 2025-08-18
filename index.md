@@ -89,7 +89,7 @@ title: Home
         </h1>
 
         <p class="max-w-prose text-mute">
-          My goal is to think like an attacker, expose weaknesses, and demonstrate real-world risks. Alongside offensive testing, I provide blue-team value by delivering clear incident notes, detection guidance, and defensive recommendations to strengthen security posture.
+          My goal is to think like an attacker, expose weaknesses, and demonstrate real-world risks. I provide values by delivering clear incident notes, detection guidance, and defensive recommendations to strengthen security posture.
         </p>
 
         <div class="mt-5 flex flex-wrap gap-3">
