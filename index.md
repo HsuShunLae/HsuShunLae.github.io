@@ -89,8 +89,7 @@ title: Home
         </h1>
 
         <p class="max-w-prose text-mute">
-          I protect websites, servers, and cloud apps against modern threats.
-          Blue-team detections, secure architecture, and clear incident notes.
+          My goal is to think like an attacker, expose weaknesses, and demonstrate real-world risks. Alongside offensive testing, I provide blue-team value by delivering clear incident notes, detection guidance, and defensive recommendations to strengthen security posture.
         </p>
 
         <div class="mt-5 flex flex-wrap gap-3">
@@ -106,7 +105,6 @@ title: Home
 
         <div class="mt-4 flex flex-wrap gap-2">
           <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Wazuh</span>
-          <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Zeek</span>
           <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Suricata</span>
           <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Azure</span>
           <span class="rounded-lg border border-white/15 px-2.5 py-1 text-xs text-slate-300">Python</span>
@@ -138,7 +136,7 @@ title: Home
 
   <footer class="border-t border-white/10 py-4">
     <div class="mx-auto w-[min(1120px,92%)] text-sm text-slate-400">
-      © {{ 'now' | date: '%Y' }} Your Name — Cybersecurity
+      © {{ 'now' | date: '%Y' }} Hsu Shun Lae - Cybersecurity
     </div>
   </footer>
 
