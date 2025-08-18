@@ -1,3 +1,28 @@
-theme: jekyll-theme-minimal
-title: Hsu's Portofolio
-description: Bookmark this to keep an eye on my project updates
+# theme: jekyll-theme-minimal
+title: "Hsu Shun Lae — Cybersecurity Portfolio"
+description: "Blue Team • Red Team • Cloud Security • Threat Hunting"
+baseurl: "" # keep empty for user.github.io repo; else "/repo-name"
+url: "https://HsuShunLae.github.io"
+theme: minima   # simple, built-in; you can swap later
+markdown: kramdown
+plugins: [jekyll-feed]
+
+# Build
+source: .
+sass:
+  style: compressed
+
+# Nav links
+nav:
+  - name: Home
+    link: /
+  - name: Projects
+    link: /projects
+  - name: Labs
+    link: /labs
+  - name: Write-ups
+    link: /writeups
+  - name: About
+    link: /about
+  - name: Resume
+    link: /resume
