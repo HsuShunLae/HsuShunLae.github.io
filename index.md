@@ -134,7 +134,7 @@ title: Home
           <svg viewBox="0 0 24 24" class="h-5 w-5 fill-cyan-300"><path d="M6 10V8a6 6 0 1 1 12 0v2h1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V11a1 1 0 0 1 1-1h1zm2 0h8V8a4 4 0 1 0-8 0v2z"/></svg>
         </div>
         <div class="absolute bottom-6 right-6 grid h-10 w-10 place-content-center rounded-full border border-cyan-400/40 bg-cyan-400/10 backdrop-blur">
-          <svg viewBox="0 0 24 24" class="h-5 w-5 fill-cyan-300"><path d="M11 2a5 5 0 0 1 5 5v2h-2V7a3 3 0 1 0-6 0v6.1l-.7-.7a2 2 0 1 0-2.8 2.8l4.5 4.5H18a2 2 0 0 0 2-2v-3a4 4 0 0 0-4-4h-1v-2h1a6 6 0 0 1 6 6v3a4 4 0 0 1-4 4H10.6l-5.2-5.2a4 4 0 0 1 5.7-5.6l.9.9V7a5 5 0 0 1 5-5z"/></svg>
+          <svg viewBox="0 0 24 24" class="h-5 w-5 fill-cyan-300"><path d="M6 10V8a6 6 0 1 1 12 0v2h1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V11a1 1 0 0 1 1-1h1zm2 0h8V8a4 4 0 1 0-8 0v2z"/></svg>
         </div>
       </div>
     </section>
