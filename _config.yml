@@ -3,14 +3,8 @@ title: "Hsu Shun Lae — Cybersecurity Portfolio"
 description: "Blue Team • Red Team • Cloud Security • Threat Hunting"
 baseurl: "" # keep empty for user.github.io repo; else "/repo-name"
 url: "https://HsuShunLae.github.io"
-theme: minima   # simple, built-in; you can swap later
 markdown: kramdown
-plugins: [jekyll-feed]
 
-# Build
-source: .
-sass:
-  style: compressed
 
 # Nav links
 nav:
