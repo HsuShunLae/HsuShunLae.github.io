@@ -174,46 +174,47 @@ title: Home
       </div>
 
     </div>
+    <div class="mt-6 flex flex-wrap gap-3">
+
+      <div class="skill-pill">
+        <img src="https://wazuh.com/wp-content/uploads/2022/05/logo-wazuh.svg" alt="">
+        <span>Wazuh</span>
+      </div>
+    
+      <div class="skill-pill">
+        <img src="https://suricata.io/wp-content/uploads/2020/09/suricata-logo.png" alt="">
+        <span>Suricata</span>
+      </div>
+    
+      <div class="skill-pill">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Nmap_logo.svg" alt="">
+        <span>Nmap</span>
+      </div>
+    
+      <div class="skill-pill">
+        <img src="https://avatars.githubusercontent.com/u/3189055?s=200&v=4" alt="">
+        <span>BurpSuite</span>
+      </div>
+    
+      <div class="skill-pill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="">
+        <span>Bash</span>
+      </div>
+    
+      <div class="skill-pill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="">
+        <span>Python</span>
+      </div>
+    
+      <div class="skill-pill">
+        <img src="https://owasp.org/assets/images/logo.png" alt="">
+        <span>OWASP</span>
+      </div>
+    
+    </div>
 
   </div>
-  <div class="mt-6 flex flex-wrap gap-3">
-
-  <div class="skill-pill">
-    <img src="https://wazuh.com/wp-content/uploads/2022/05/logo-wazuh.svg" alt="">
-    <span>Wazuh</span>
-  </div>
-
-  <div class="skill-pill">
-    <img src="https://suricata.io/wp-content/uploads/2020/09/suricata-logo.png" alt="">
-    <span>Suricata</span>
-  </div>
-
-  <div class="skill-pill">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Nmap_logo.svg" alt="">
-    <span>Nmap</span>
-  </div>
-
-  <div class="skill-pill">
-    <img src="https://avatars.githubusercontent.com/u/3189055?s=200&v=4" alt="">
-    <span>BurpSuite</span>
-  </div>
-
-  <div class="skill-pill">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="">
-    <span>Bash</span>
-  </div>
-
-  <div class="skill-pill">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="">
-    <span>Python</span>
-  </div>
-
-  <div class="skill-pill">
-    <img src="https://owasp.org/assets/images/logo.png" alt="">
-    <span>OWASP</span>
-  </div>
-
-</div>
+  
 
 </section>
 
