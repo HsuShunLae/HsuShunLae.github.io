@@ -244,18 +244,25 @@ title: Home
 </section>
 
 <!-- RESUME -->
-<section id="resume" class="py-32 border-t border-white/10">
+<section id="resume" class="relative py-32 overflow-hidden border-t border-white/10">
+
+  <!-- Background Glow Layer -->
+  <div class="absolute inset-0 -z-10">
+    <div class="absolute w-[700px] h-[500px] bg-cyan-500/5 blur-[120px] top-[-200px] left-[20%] rounded-full"></div>
+  </div>
+
   <div class="mx-auto w-full max-w-[1300px] px-8">
 
     <h2 class="text-3xl font-bold mb-6">Resume</h2>
 
-    <a href="{{ '/assets/img/HsuShunLae_Resume.pdf' | relative_url }}"
+    <a href="{{ '/assets/HsuShunLae_Resume.pdf' | relative_url }}"
        class="inline-flex items-center gap-2 rounded-lg border border-cyan-400/40 px-6 py-3 text-cyan-300 hover:bg-cyan-400/10 transition">
       Download Resume
     </a>
 
   </div>
 </section>
+
 
 </main>
 
