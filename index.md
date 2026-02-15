@@ -94,7 +94,6 @@ title: Home
       <a href="#home" class="nav-link">Home</a>
       <a href="#about" class="nav-link">About</a>
       <a href="#projects" class="nav-link">Projects</a>
-      <a href="#labs" class="nav-link">Labs</a>
       <a href="#writeups" class="nav-link">Write-ups</a>
       <a href="#resume" class="nav-link">Resume</a>
     </nav>
@@ -234,13 +233,6 @@ title: Home
 <section id="projects" class="min-h-screen flex items-center">
   <div class="mx-auto w-[min(1120px,92%)]">
     <h2 class="text-3xl font-bold mb-6">Projects</h2>
-  </div>
-</section>
-
-<!-- LABS -->
-<section id="labs" class="min-h-screen flex items-center">
-  <div class="mx-auto w-[min(1120px,92%)]">
-    <h2 class="text-3xl font-bold mb-6">Labs</h2>
   </div>
 </section>
 
