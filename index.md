@@ -244,13 +244,16 @@ title: Home
 </section>
 
 <!-- RESUME -->
-<section id="resume" class="min-h-screen flex items-center">
-  <div class="mx-auto w-[min(1120px,92%)]">
+<section id="resume" class="py-32 border-t border-white/10">
+  <div class="mx-auto w-full max-w-[1300px] px-8">
+
     <h2 class="text-3xl font-bold mb-6">Resume</h2>
-    <a href="{{ '/assets/HsuShunLae_Resume.pdf' | relative_url }}"
-       class="text-cyan-400 underline">
+
+    <a href="{{ '/assets/img/HsuShunLae_Resume.pdf' | relative_url }}"
+       class="inline-flex items-center gap-2 rounded-lg border border-cyan-400/40 px-6 py-3 text-cyan-300 hover:bg-cyan-400/10 transition">
       Download Resume
     </a>
+
   </div>
 </section>
 
