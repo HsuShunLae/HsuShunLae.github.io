@@ -255,7 +255,7 @@ title: Home
 <section id="resume" class="min-h-screen flex items-center">
   <div class="mx-auto w-[min(1120px,92%)]">
     <h2 class="text-3xl font-bold mb-6">Resume</h2>
-    <a href="{{ '/assets/img/HsuShunLae_Resume.pdf' | relative_url }}"
+    <a href="{{ '/assets/HsuShunLae_Resume.pdf' | relative_url }}"
        class="text-cyan-400 underline">
       Download Resume
     </a>
