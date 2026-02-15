@@ -93,11 +93,7 @@ title: Home
 
       <h1 class="mb-4 text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl"> Uncover vulnerabilities through <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600"> cyber solutions </span ><br /> for your <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-700">security</span> </h1>
 
-      <p class="max-w-prose text-mute">
-        My goal is to think like an attacker, expose weaknesses, and demonstrate real-world risks.
-        I provide clear incident notes, detection guidance, and defensive recommendations
-        to strengthen security posture.
-      </p>
+     <p class="max-w-prose text-mute"> My goal is to think like an attacker, expose weaknesses, and demonstrate real-world risks. I provide values by delivering clear incident notes, detection guidance, and defensive recommendations to strengthen security posture. </p>
 
       <div class="mt-6 flex gap-4">
         <a href="#projects"
