@@ -244,11 +244,8 @@ title: Home
 </section>
 
 <!-- RESUME -->
-<section id="resume" class="min-h-screen flex items-center">
-  <div class="mx-auto w-full max-w-[1300px] px-8 grid md:grid-cols-2 gap-12 items-center">
-    <h2 class="text-3xl font-bold mb-6">Projects</h2>
-  </div>
-</section>
+{% include resume-section.html %}
+
 
 </main>
 
