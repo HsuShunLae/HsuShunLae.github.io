@@ -177,12 +177,12 @@ title: Home
     <div class="mt-6 flex flex-wrap gap-3">
 
       <div class="skill-pill">
-        <img src="https://wazuh.com/wp-content/uploads/2022/05/logo-wazuh.svg" alt="">
+        <img src="https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/favicon.ico?v=1767701209057" alt="">
         <span>Wazuh</span>
       </div>
     
       <div class="skill-pill">
-        <img src="https://suricata.io/wp-content/uploads/2020/09/suricata-logo.png" alt="">
+        <img src="https://suricata.io/wp-content/uploads/2023/09/Logo-Suricata-vert-whitetype-R.png" alt="">
         <span>Suricata</span>
       </div>
     
