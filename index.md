@@ -112,9 +112,31 @@ title: Home
            style="background: radial-gradient(60% 60% at 50% 40%, rgba(0,245,255,.18), rgba(0,168,255,.08) 60%, transparent 61%);">
       </div>
 
-      <div class="relative aspect-square w-[80%] max-w-[420px] overflow-hidden rounded-full ring-2 ring-cyan-400">
-        <img src="{{ '/assets/img/HsuShun.png' | relative_url }}" alt="Portrait">
+      <div class="relative flex justify-center">
+
+  <!-- OUTER GLOW -->
+  <div class="absolute -inset-10 rounded-full blur-3xl opacity-60"
+       style="background: radial-gradient(circle at center, rgba(0,245,255,0.35), rgba(0,168,255,0.25), transparent 70%);">
+  </div>
+
+  <!-- GRADIENT FRAME -->
+  <div class="relative p-[4px] rounded-full bg-gradient-to-br from-cyan-400 via-blue-500 to-cyan-300 shadow-[0_0_40px_rgba(0,245,255,0.35)]">
+
+    <!-- INNER DARK RING -->
+    <div class="p-[6px] rounded-full bg-base">
+
+      <!-- IMAGE -->
+      <div class="aspect-square w-[380px] overflow-hidden rounded-full">
+        <img src="{{ '/assets/img/HsuShun.png' | relative_url }}"
+             alt="Portrait"
+             class="w-full h-full object-cover">
       </div>
+
+    </div>
+  </div>
+
+</div>
+
     </div>
 
   </div>
