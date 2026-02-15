@@ -98,7 +98,7 @@ title: Home
       <a href="#resume" class="nav-link">Resume</a>
     </nav>
 
-    <a href="https://www.linkedin.com/messaging/compose/?recipient=hsu-shun-lae-56a90b211"
+    <a href="https://www.linkedin.com/messaging/compose/?recipient=ei-ziza-war-khin-15585a303"
        target="_blank"
        rel="noopener noreferrer"
        class="ml-6 inline-flex items-center gap-2 rounded-lg border border-white/20 px-4 py-2 text-sm text-slate-200 hover:border-cyan-400 hover:text-white transition">
