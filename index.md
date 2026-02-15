@@ -152,6 +152,44 @@ title: Home
           Learn More
         </a>
       </div>
+      <div class="mt-3 flex flex-wrap gap-3">
+
+        <div class="skill-pill">
+          <img src="https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/favicon.ico?v=1767701209057" alt="">
+          <span>Wazuh</span>
+        </div>
+      
+        <div class="skill-pill">
+          <img src="https://suricata.io/wp-content/uploads/2023/09/Logo-Suricata-vert-whitetype-R.png" alt="">
+          <span>Suricata</span>
+        </div>
+      
+        <div class="skill-pill">
+          <img src="https://nmap.org/images/sitelogo.png" alt="">
+          <span>Nmap</span>
+        </div>
+      
+        <div class="skill-pill">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/BurpSuite_Comunity_Edition.svg/330px-BurpSuite_Comunity_Edition.svg.png" alt="">
+          <span>BurpSuite</span>
+        </div>
+      
+        <div class="skill-pill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="">
+          <span>Bash</span>
+        </div>
+      
+        <div class="skill-pill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="">
+          <span>Python</span>
+        </div>
+      
+        <div class="skill-pill">
+          <img src="https://owasp.org/assets/images/logo.png" alt="">
+          <span>OWASP</span>
+        </div>
+      
+      </div>
 
     </div>
 
@@ -172,44 +210,6 @@ title: Home
         </div>
       </div>
 
-    </div>
-    <div class="mt-3 flex flex-wrap gap-3">
-
-      <div class="skill-pill">
-        <img src="https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/favicon.ico?v=1767701209057" alt="">
-        <span>Wazuh</span>
-      </div>
-    
-      <div class="skill-pill">
-        <img src="https://suricata.io/wp-content/uploads/2023/09/Logo-Suricata-vert-whitetype-R.png" alt="">
-        <span>Suricata</span>
-      </div>
-    
-      <div class="skill-pill">
-        <img src="https://nmap.org/images/sitelogo.png" alt="">
-        <span>Nmap</span>
-      </div>
-    
-      <div class="skill-pill">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/BurpSuite_Comunity_Edition.svg/330px-BurpSuite_Comunity_Edition.svg.png" alt="">
-        <span>BurpSuite</span>
-      </div>
-    
-      <div class="skill-pill">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="">
-        <span>Bash</span>
-      </div>
-    
-      <div class="skill-pill">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="">
-        <span>Python</span>
-      </div>
-    
-      <div class="skill-pill">
-        <img src="https://owasp.org/assets/images/logo.png" alt="">
-        <span>OWASP</span>
-      </div>
-    
     </div>
 
   </div>
@@ -259,12 +259,17 @@ title: Home
   const sections = document.querySelectorAll("section");
   const navLinks = document.querySelectorAll(".nav-link");
 
-  window.addEventListener("scroll", () => {
+  function setActiveLink() {
     let current = "";
 
     sections.forEach(section => {
-      const sectionTop = section.offsetTop - 150;
-      if (window.pageYOffset >= sectionTop) {
+      const sectionTop = section.offsetTop - 120;
+      const sectionHeight = section.offsetHeight;
+
+      if (
+        window.scrollY >= sectionTop &&
+        window.scrollY < sectionTop + sectionHeight
+      ) {
         current = section.getAttribute("id");
       }
     });
@@ -275,8 +280,12 @@ title: Home
         link.classList.add("active");
       }
     });
-  });
+  }
+
+  window.addEventListener("scroll", setActiveLink);
+  window.addEventListener("load", setActiveLink);
 </script>
+
 
 </body>
 </html>
