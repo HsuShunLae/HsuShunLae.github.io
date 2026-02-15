@@ -244,21 +244,34 @@ title: Home
 </section>
 
 <!-- RESUME -->
-<section id="resume" class="relative py-32 overflow-hidden border-t border-white/10">
-
-  
+<section id="resume" class="relative py-32 border-t border-white/10">
 
   <div class="mx-auto w-full max-w-[1300px] px-8">
 
-    <h2 class="text-3xl font-bold mb-6">Resume</h2>
+    <h2 class="text-3xl font-bold mb-8">
+      Resume
+    </h2>
 
-    <a href="{{ '/assets/HsuShunLae_Resume.pdf' | relative_url }}"
-       class="inline-flex items-center gap-2 rounded-lg border border-cyan-400/40 px-6 py-3 text-cyan-300 hover:bg-cyan-400/10 transition">
-      Download Resume
-    </a>
+    <div class="flex items-center gap-6">
+
+      <a href="{{ '/assets/img/HsuShunLae_Resume.pdf' | relative_url }}"
+         class="inline-flex items-center gap-3 rounded-xl border border-white/20 px-6 py-3 text-slate-200 hover:border-cyan-400 hover:text-white transition">
+        
+        <!-- Download Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 3v12m0 0l-4-4m4 4l4-4M4 17h16v4H4z" />
+        </svg>
+
+        Download Resume
+      </a>
+
+    </div>
 
   </div>
+
 </section>
+
 
 
 </main>
