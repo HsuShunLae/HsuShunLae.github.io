@@ -98,10 +98,20 @@ title: Home
       <a href="#resume" class="nav-link">Resume</a>
     </nav>
 
-    <a href="#contact"
-       class="ml-6 rounded-lg border border-white/20 px-4 py-2 text-sm text-slate-200 hover:border-white/40">
+    <a href="https://www.linkedin.com/messaging/compose/?recipient=hsu-shun-lae-56a90b211"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="ml-6 inline-flex items-center gap-2 rounded-lg border border-white/20 px-4 py-2 text-sm text-slate-200 hover:border-cyan-400 hover:text-white transition">
+    
+      <!-- LinkedIn Icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M20.447 20.452H16.89v-5.569c0-1.327-.024-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.94v5.666H9.345V9h3.414v1.561h.048c.476-.9 1.637-1.852 3.37-1.852 3.602 0 4.268 2.372 4.268 5.455v6.288zM5.337 7.433a1.98 1.98 0 110-3.961 1.98 1.98 0 010 3.961zM6.814 20.452H3.86V9h2.954v11.452z"/>
+      </svg>
+    
       Let’s Talk
     </a>
+
+
   </div>
 </header>
 
