@@ -220,14 +220,7 @@ title: Home
 
 
 <!-- ABOUT -->
-<section id="about" class="min-h-screen flex items-center">
-  <div class="mx-auto w-[min(1120px,92%)]">
-    <h2 class="text-3xl font-bold mb-6">About Me</h2>
-    <p class="text-mute max-w-3xl">
-      Add your detailed background, certifications, and technical focus here.
-    </p>
-  </div>
-</section>
+{% include about-section.html %} 
 
 <!-- PROJECTS -->
 <section id="projects" class="min-h-screen flex items-center">
