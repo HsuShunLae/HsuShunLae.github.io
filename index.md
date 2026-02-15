@@ -223,11 +223,7 @@ title: Home
 {% include about-section.html %} 
 
 <!-- PROJECTS -->
-<section id="projects" class="min-h-screen flex items-center">
-  <div class="mx-auto w-[min(1120px,92%)]">
-    <h2 class="text-3xl font-bold mb-6">Projects</h2>
-  </div>
-</section>
+{% include project-section.html %} 
 
 <!-- WRITEUPS -->
 <section id="writeups" class="min-h-screen flex items-center">
