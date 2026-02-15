@@ -174,7 +174,7 @@ title: Home
       </div>
 
     </div>
-    <div class="mt-6 flex flex-wrap gap-3">
+    <div class="mt-3 flex flex-wrap gap-3">
 
       <div class="skill-pill">
         <img src="https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/favicon.ico?v=1767701209057" alt="">
@@ -187,12 +187,12 @@ title: Home
       </div>
     
       <div class="skill-pill">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Nmap_logo.svg" alt="">
+        <img src="https://nmap.org/images/sitelogo.png" alt="">
         <span>Nmap</span>
       </div>
     
       <div class="skill-pill">
-        <img src="https://avatars.githubusercontent.com/u/3189055?s=200&v=4" alt="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/BurpSuite_Comunity_Edition.svg/330px-BurpSuite_Comunity_Edition.svg.png" alt="">
         <span>BurpSuite</span>
       </div>
     
