@@ -244,7 +244,7 @@ title: Home
 </section>
 
 <!-- RESUME -->
-{% include resume-section.html %}
+{% include resume-section.html %} 
 
 
 </main>
