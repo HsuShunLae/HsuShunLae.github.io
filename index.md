@@ -83,21 +83,43 @@ title: Home
 <main class="pt-24">
 
 <!-- HERO SECTION -->
-<section id="home" class="min-h-screen flex items-center">
-  <div class="mx-auto grid w-[min(1120px,92%)] items-center gap-10 md:grid-cols-2">
+<section id="home" class="relative min-h-screen flex items-center overflow-hidden">
 
-    <div>
-      <p class="mb-2 text-xs tracking-[0.18em] uppercase text-slate-300">
+  <!-- Background glow layers -->
+  <div class="absolute inset-0 -z-10">
+    <div class="absolute w-[900px] h-[600px] bg-cyan-500/10 blur-[120px] top-[-200px] right-[-200px] rounded-full"></div>
+    <div class="absolute w-[700px] h-[500px] bg-blue-500/10 blur-[100px] bottom-[-150px] left-[-150px] rounded-full"></div>
+  </div>
+
+  <div class="mx-auto w-full max-w-[1300px] px-8 grid md:grid-cols-2 gap-12 items-center">
+
+    <!-- LEFT SIDE -->
+    <div class="space-y-6">
+
+      <p class="text-xs tracking-[0.18em] uppercase text-slate-300">
         I’m <strong>Hsu Shun Lae</strong>
       </p>
 
-      <h1 class="mb-4 text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl"> Uncover vulnerabilities through <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600"> cyber solutions </span ><br /> for your <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-700">security</span> </h1>
+      <h1 class="text-5xl font-extrabold leading-tight tracking-tight">
+        Uncover vulnerabilities through
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
+          cyber solutions
+        </span>
+        for your
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-700">
+          security
+        </span>
+      </h1>
 
-     <p class="max-w-prose text-mute"> My goal is to think like an attacker, expose weaknesses, and demonstrate real-world risks. I provide values by delivering clear incident notes, detection guidance, and defensive recommendations to strengthen security posture. </p>
+      <p class="text-mute max-w-xl text-lg">
+        My goal is to think like an attacker, expose weaknesses,
+        and demonstrate real-world risks through practical
+        defensive strategies.
+      </p>
 
-      <div class="mt-6 flex gap-4">
+      <div class="flex gap-4 pt-4">
         <a href="#projects"
-           class="rounded-xl bg-gradient-to-br from-neonCyan to-neonBlue px-6 py-3 font-semibold text-slate-900 glow transition hover:-translate-y-1">
+           class="rounded-xl bg-gradient-to-br from-neonCyan to-neonBlue px-6 py-3 font-semibold text-slate-900 shadow-[0_0_40px_rgba(0,245,255,0.4)] transition hover:-translate-y-1">
           Get Started
         </a>
         <a href="#about"
@@ -105,42 +127,32 @@ title: Home
           Learn More
         </a>
       </div>
+
     </div>
 
+    <!-- RIGHT SIDE -->
     <div class="relative flex justify-center">
-      <div class="absolute -inset-6 rounded-full blur-2xl"
-           style="background: radial-gradient(60% 60% at 50% 40%, rgba(0,245,255,.18), rgba(0,168,255,.08) 60%, transparent 61%);">
+
+      <div class="absolute -inset-12 rounded-full blur-3xl opacity-60"
+           style="background: radial-gradient(circle at center, rgba(0,245,255,0.3), rgba(0,168,255,0.25), transparent 70%);">
       </div>
 
-      <div class="relative flex justify-center">
-
-  <!-- OUTER GLOW -->
-  <div class="absolute -inset-10 rounded-full blur-3xl opacity-60"
-       style="background: radial-gradient(circle at center, rgba(0,245,255,0.35), rgba(0,168,255,0.25), transparent 70%);">
-  </div>
-
-  <!-- GRADIENT FRAME -->
-  <div class="relative p-[4px] rounded-full bg-gradient-to-br from-cyan-400 via-blue-500 to-cyan-300 shadow-[0_0_40px_rgba(0,245,255,0.35)]">
-
-    <!-- INNER DARK RING -->
-    <div class="p-[6px] rounded-full bg-base">
-
-      <!-- IMAGE -->
-      <div class="aspect-square w-[380px] overflow-hidden rounded-full">
-        <img src="{{ '/assets/img/HsuShun.png' | relative_url }}"
-             alt="Portrait"
-             class="w-full h-full object-cover">
+      <div class="relative p-[4px] rounded-full bg-gradient-to-br from-cyan-400 via-blue-500 to-cyan-300 shadow-[0_0_60px_rgba(0,245,255,0.4)]">
+        <div class="p-[6px] rounded-full bg-base">
+          <div class="aspect-square w-[380px] overflow-hidden rounded-full">
+            <img src="{{ '/assets/img/HsuShun.png' | relative_url }}"
+                 alt="Portrait"
+                 class="w-full h-full object-cover">
+          </div>
+        </div>
       </div>
-
-    </div>
-  </div>
-
-</div>
 
     </div>
 
   </div>
 </section>
+
+
 
 <!-- ABOUT -->
 <section id="about" class="min-h-screen flex items-center">
