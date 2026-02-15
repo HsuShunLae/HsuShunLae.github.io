@@ -246,10 +246,7 @@ title: Home
 <!-- RESUME -->
 <section id="resume" class="relative py-32 overflow-hidden border-t border-white/10">
 
-  <!-- Background Glow Layer -->
-  <div class="absolute inset-0 -z-10">
-    <div class="absolute w-[700px] h-[500px] bg-cyan-500/5 blur-[120px] top-[-200px] left-[20%] rounded-full"></div>
-  </div>
+  
 
   <div class="mx-auto w-full max-w-[1300px] px-8">
 
