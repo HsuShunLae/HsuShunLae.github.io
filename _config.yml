@@ -4,18 +4,3 @@ description: "Blue Team • Red Team • Cloud Security • Threat Hunting"
 baseurl: "" # keep empty for user.github.io repo; else "/repo-name"
 url: "https://HsuShunLae.github.io"
 source: . 
-
-# Nav links
-nav:
-  - name: Home
-    link: /
-  - name: About
-    link: /about
-  - name: Projects
-    link: /projects
-  - name: Labs
-    link: /labs
-  - name: Write-ups
-    link: /writeups
-  - name: Resume
-    link: /resume
