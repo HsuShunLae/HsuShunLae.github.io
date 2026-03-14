@@ -238,10 +238,6 @@ title: Home
 <!-- WRITEUPS -->
 {% include writeup-section.html %} 
 
-<!-- RESUME -->
-{% include resume-section.html %} 
-
-
 </main>
 
 <footer class="border-t border-white/10 py-6">
