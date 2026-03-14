@@ -95,7 +95,6 @@ title: Home
       <a href="#about" class="nav-link">About</a>
       <a href="#projects" class="nav-link">Projects</a>
       <a href="#writeups" class="nav-link">Write-ups</a>
-      <a href="#resume" class="nav-link">Resume</a>
     </nav>
 
     <a href="https://www.linkedin.com/messaging/compose/?recipient=hsu-shun-lae-56a90b211"
