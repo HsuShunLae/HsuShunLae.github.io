@@ -15,13 +15,11 @@
     </h2>
 
     <!-- 🔥 Horizontal Scroll Container -->
-    <div draggable="true"
-        class="project-card min-w-[300px] max-w-[300px] snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
-
+    <div id="projectContainer"
+        class="mt-14 grid grid-rows-2 grid-flow-col gap-8 overflow-x-auto pb-4 scroll-smooth snap-x snap-mandatory cursor-grab active:cursor-grabbing">
       <!-- CARD TEMPLATE -->
-      <!-- Repeat this block -->
 
-      <div draggable="true" class="project-card group min-w-[300px] max-w-[300px] flex-shrink-0 snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
+      <div draggable="true" class="project-card min-w-[300px] max-w-[300px] snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
         <h4 class="mb-2 font-semibold text-white">Kernel Agent Security Framework</h4>
         <p class="text-mute text-sm mb-4 min-h-[90px]">
           A layered Linux AMD64 system-call monitoring framework combining static and dynamic enforcement mechanisms.
@@ -29,7 +27,7 @@
         <a href="https://github.com/HsuShunLae/x86_64-Linux-Based-Kernel-Agent-Security-Framework" class="text-cyan-300 hover:underline text-sm">Details →</a>
       </div>
 
-      <div draggable="true" class="project-card group min-w-[300px] max-w-[300px] flex-shrink-0 snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
+      <div draggable="true" class="project-card min-w-[300px] max-w-[300px] snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
         <h4 class="mb-2 font-semibold text-white">Hybrid NIDS</h4>
         <p class="text-mute text-sm mb-4 min-h-[90px]">
           Signature + anomaly based intrusion detection.
@@ -37,7 +35,7 @@
         <a href="https://github.com/HsuShunLae/IDS" class="text-cyan-300 hover:underline text-sm">Details →</a>
       </div>
 
-      <div draggable="true" class="project-card group min-w-[300px] max-w-[300px] flex-shrink-0 snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
+      <div draggable="true" class="project-card min-w-[300px] max-w-[300px] snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
         <h4 class="mb-2 font-semibold text-white">Exploit Walkthroughs</h4>
         <p class="text-mute text-sm mb-4 min-h-[90px]">
           CTF writeups across security domains.
@@ -45,7 +43,7 @@
         <a href="writeups" class="text-cyan-300 hover:underline text-sm">Details →</a>
       </div>
 
-      <div draggable="true" class="project-card group min-w-[300px] max-w-[300px] flex-shrink-0 snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
+      <div draggable="true" class="project-card min-w-[300px] max-w-[300px] snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
         <h4 class="mb-2 font-semibold text-white">Threat Hunting Lab</h4>
         <p class="text-mute text-sm mb-4 min-h-[90px]">
           Honeypot-based threat hunting with IDS detection, firewall prevention, and SIEM-based incident handling.
@@ -53,7 +51,7 @@
         <a href="https://github.com/HsuShunLae/Deception-Network-Defense" class="text-cyan-300 hover:underline text-sm">Details →</a>
       </div>
 
-      <div draggable="true" class="project-card group min-w-[300px] max-w-[300px] flex-shrink-0 snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
+      <div draggable="true" class="project-card min-w-[300px] max-w-[300px] snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
         <h4 class="mb-2 font-semibold text-white">Automated Cloud Deployment</h4>
         <p class="text-mute text-sm mb-4 min-h-[90px]">
           CI/CD pipeline for automated Docker build and deployment on AWS EC2 using GitHub Actions.
@@ -61,7 +59,7 @@
         <a href="https://github.com/HsuShunLae/Automated-Container-deployment-and-Administration-in-the-cloud" class="text-cyan-300 hover:underline text-sm">Details →</a>
       </div>
 
-      <div draggable="true" class="project-card group min-w-[300px] max-w-[300px] flex-shrink-0 snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
+      <div draggable="true" class="project-card min-w-[300px] max-w-[300px] snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
         <h4 class="mb-2 font-semibold text-white">Chatbot Wah Wah</h4>
         <p class="text-mute text-sm mb-4 min-h-[90px]">
           Lightweight LLM chatbot.
@@ -69,7 +67,7 @@
         <a href="https://github.com/HsuShunLae/ChatBotWahWah" class="text-cyan-300 hover:underline text-sm">Details →</a>
       </div>
 
-      <div draggable="true" class="project-card group min-w-[300px] max-w-[300px] flex-shrink-0 snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
+      <div draggable="true" class="project-card min-w-[300px] max-w-[300px] snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
         <h4 class="mb-2 font-semibold text-white">Digital Forensics</h4>
         <p class="text-mute text-sm mb-4 min-h-[90px]">
           Digital Forensics challenge investigation where a compromised environment was analyzed to recover hidden evidence.
@@ -77,7 +75,7 @@
         <a href="https://github.com/HsuShunLae/Digital-Forensics" class="text-cyan-300 hover:underline text-sm">Details →</a>
       </div>
 
-      <div draggable="true" class="project-card group min-w-[300px] max-w-[300px] flex-shrink-0 snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
+      <div draggable="true" class="project-card min-w-[300px] max-w-[300px] snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
         <h4 class="mb-2 font-semibold text-white">Forensics Investigation</h4>
         <p class="text-mute text-sm mb-4 min-h-[90px]">
           Digital forensics investigation uncovering identity theft and fraud via disk image and network traffic analysis.
@@ -85,7 +83,7 @@
         <a href="https://github.com/HsuShunLae/Forensics-Investigation" class="text-cyan-300 hover:underline text-sm">Details →</a>
       </div>
 
-      <div draggable="true" class="project-card group min-w-[300px] max-w-[300px] flex-shrink-0 snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
+      <div draggable="true" class="project-card min-w-[300px] max-w-[300px] snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
         <h4 class="mb-2 font-semibold text-white">Secure Code Analysis Project SAST Tools</h4>
         <p class="text-mute text-sm mb-4 min-h-[90px]">
           SAST security comparison of Anki and Apache Superset (Horusec vs Semgrep).
@@ -93,7 +91,7 @@
         <a href="https://github.com/HsuShunLae/Secure-Code-Analysis-Project-SAST-Tools" class="text-cyan-300 hover:underline text-sm">Details →</a>
       </div>
 
-      <div draggable="true" class="project-card group min-w-[300px] max-w-[300px] flex-shrink-0 snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
+      <div draggable="true" class="project-card min-w-[300px] max-w-[300px] snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
         <h4 class="mb-2 font-semibold text-white">Secure Application Analysis using SAST, DAST, Threat Modelling</h4>
         <p class="text-mute text-sm mb-4 min-h-[90px]">
           Full-stack security analysis of a Django app using Horusec, OWASP ZAP, and STRIDE+DREAD threat modelling.
@@ -101,7 +99,7 @@
         <a href="https://github.com/HsuShunLae/Secure-Application-Analysis-using-SAST-DAST-Threat-Modelling" class="text-cyan-300 hover:underline text-sm">Details →</a>
       </div>
 
-      <div draggable="true" class="project-card group min-w-[300px] max-w-[300px] flex-shrink-0 snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
+      <div draggable="true" class="project-card min-w-[300px] max-w-[300px] snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
         <h4 class="mb-2 font-semibold text-white">Penetration Testing Labs (OSINT and DVWA: Command Injection Analysis)</h4>
         <p class="text-mute text-sm mb-4 min-h-[90px]">
           OSINT reconnaissance and command injection exploitation (DVWA), with vulnerability analysis and remediation recommendations.
