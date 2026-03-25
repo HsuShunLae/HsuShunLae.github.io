@@ -1,73 +1,139 @@
+<section id="projects" class="relative min-h-screen flex items-center overflow-hidden">
+  
+  <!-- Background -->
+  <div class="absolute inset-0 -z-10">
+    <div class="absolute w-[900px] h-[600px] bg-cyan-500/10 blur-[120px] top-[-200px] right-[-200px] rounded-full"></div>
+    <div class="absolute w-[700px] h-[500px] bg-blue-500/10 blur-[100px] bottom-[-150px] left-[-150px] rounded-full"></div>
+  </div>
+
+  <div class="mx-auto w-full max-w-[1300px] items-center">
+
+    <h2 class="text-3xl font-bold mb-6">
+      <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
+        Projects
+      </span>
+    </h2>
+
+    <!-- 🔥 Horizontal Scroll Container -->
+    <div id="projectContainer"
+      class="mt-14 flex gap-8 overflow-x-auto pb-4 scroll-smooth snap-x snap-mandatory cursor-grab active:cursor-grabbing">
+
+      <!-- CARD TEMPLATE -->
+      <!-- Repeat this block -->
+
+      <div draggable="true" class="project-card group min-w-[300px] max-w-[300px] flex-shrink-0 snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
+        <h4 class="mb-2 font-semibold text-white">Kernel Agent Security Framework</h4>
+        <p class="text-mute text-sm mb-4 min-h-[90px]">
+          Linux AMD64 system-call monitoring framework.
+        </p>
+        <a href="#" class="text-cyan-300 hover:underline text-sm">Details →</a>
+      </div>
+
+      <div draggable="true" class="project-card group min-w-[300px] max-w-[300px] flex-shrink-0 snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
+        <h4 class="mb-2 font-semibold text-white">Hybrid NIDS</h4>
+        <p class="text-mute text-sm mb-4 min-h-[90px]">
+          Signature + anomaly based intrusion detection.
+        </p>
+        <a href="#" class="text-cyan-300 hover:underline text-sm">Details →</a>
+      </div>
+
+      <div draggable="true" class="project-card group min-w-[300px] max-w-[300px] flex-shrink-0 snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
+        <h4 class="mb-2 font-semibold text-white">Exploit Walkthroughs</h4>
+        <p class="text-mute text-sm mb-4 min-h-[90px]">
+          CTF writeups across security domains.
+        </p>
+        <a href="#" class="text-cyan-300 hover:underline text-sm">Details →</a>
+      </div>
+
+      <div draggable="true" class="project-card group min-w-[300px] max-w-[300px] flex-shrink-0 snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
+        <h4 class="mb-2 font-semibold text-white">Threat Hunting Lab</h4>
+        <p class="text-mute text-sm mb-4 min-h-[90px]">
+          Honeypot + IDS + SIEM pipeline.
+        </p>
+        <a href="#" class="text-cyan-300 hover:underline text-sm">Details →</a>
+      </div>
+
+      <div draggable="true" class="project-card group min-w-[300px] max-w-[300px] flex-shrink-0 snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
+        <h4 class="mb-2 font-semibold text-white">Cloud Deployment</h4>
+        <p class="text-mute text-sm mb-4 min-h-[90px]">
+          Docker CI/CD pipeline on AWS.
+        </p>
+        <a href="#" class="text-cyan-300 hover:underline text-sm">Details →</a>
+      </div>
+
+      <div draggable="true" class="project-card group min-w-[300px] max-w-[300px] flex-shrink-0 snap-start rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]">
+        <h4 class="mb-2 font-semibold text-white">Chatbot Wah Wah</h4>
+        <p class="text-mute text-sm mb-4 min-h-[90px]">
+          Lightweight LLM chatbot.
+        </p>
+        <a href="#" class="text-cyan-300 hover:underline text-sm">Details →</a>
+      </div>
+
+      <!-- Add more cards freely ↓ -->
+
+    </div>
+  </div>
+</section>
+
+<!-- 🔥 SCRIPT -->
 <script>
-const projects = [
-  {
-    title: "Kernel Agent Security Framework",
-    desc: "A layered Linux AMD64 system-call monitoring framework combining static and dynamic enforcement mechanisms.",
-    link: "https://github.com/HsuShunLae/x86_64-Linux-Based-Kernel-Agent-Security-Framework",
-    label: "Details →"
-  },
-  {
-    title: "Hybrid NIDS",
-    desc: "Hybrid IDS combining signature-based and anomaly-based detection.",
-    link: "https://github.com/HsuShunLae/IDS",
-    label: "Details →"
-  },
-  {
-    title: "Exploit Walkthroughs",
-    desc: "CTF writeups across Forensics, Web, Pwn, OSINT.",
-    link: "#writeups",
-    label: "Read the write-up →"
-  },
-  {
-    title: "Threat Hunting Lab",
-    desc: "Honeypot + IDS + Firewall + SIEM based threat detection pipeline.",
-    link: "https://github.com/HsuShunLae/Deception-Network-Defense",
-    label: "Details →"
-  },
-  {
-    title: "Automated Cloud Infrastructure Deployment",
-    desc: "CI/CD pipeline for Docker deployment on AWS EC2.",
-    link: "https://github.com/HsuShunLae/Automated-Container-deployment-and-Administration-in-the-cloud",
-    label: "Details →"
-  },
-  {
-    title: "Chatbot Wah Wah",
-    desc: "A small daily-fun LLM chatbot.",
-    link: "https://github.com/HsuShunLae/ChatBotWahWah",
-    label: "Details →"
-  },
+const container = document.getElementById("projectContainer");
 
-  // 🔥 Add more easily
-  ...Array.from({ length: 6 }, (_, i) => ({
-    title: `Project ${i + 7}`,
-    desc: "Additional scalable project placeholder.",
-    link: "#",
-    label: "Details →"
-  }))
-];
-</script>
+/////////////////////////
+// DRAG TO SCROLL
+/////////////////////////
+let isDown = false;
+let startX;
+let scrollLeft;
 
-<div id="projectGrid" class="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"></div>
+container.addEventListener("mousedown", (e) => {
+  isDown = true;
+  startX = e.pageX - container.offsetLeft;
+  scrollLeft = container.scrollLeft;
+});
 
-<script>
-const grid = document.getElementById("projectGrid");
+container.addEventListener("mouseleave", () => isDown = false);
+container.addEventListener("mouseup", () => isDown = false);
 
-projects.forEach(p => {
-  const card = document.createElement("div");
+container.addEventListener("mousemove", (e) => {
+  if (!isDown) return;
+  e.preventDefault();
+  const x = e.pageX - container.offsetLeft;
+  const walk = (x - startX) * 1.5;
+  container.scrollLeft = scrollLeft - walk;
+});
 
-  card.className = `
-    group rounded-xl border border-white/10 bg-panel/60 backdrop-blur-sm p-6 transition
-    hover:border-cyan-400/40 hover:shadow-[0_0_30px_rgba(0,245,255,0.15)]
-  `;
+/////////////////////////
+// DRAG TO REORDER
+/////////////////////////
+let dragged = null;
 
-  card.innerHTML = `
-    <h4 class="mb-2 font-semibold text-white">${p.title}</h4>
-    <p class="text-mute text-sm mb-4 min-h-[72px]">${p.desc}</p>
-    <a href="${p.link}" class="text-cyan-300 hover:underline text-sm">
-      ${p.label}
-    </a>
-  `;
+document.querySelectorAll(".project-card").forEach(card => {
 
-  grid.appendChild(card);
+  card.addEventListener("dragstart", () => {
+    dragged = card;
+    card.classList.add("opacity-50");
+  });
+
+  card.addEventListener("dragend", () => {
+    card.classList.remove("opacity-50");
+  });
+
+  card.addEventListener("dragover", (e) => e.preventDefault());
+
+  card.addEventListener("drop", () => {
+    if (dragged !== card) {
+      const nodes = [...container.children];
+      const draggedIndex = nodes.indexOf(dragged);
+      const targetIndex = nodes.indexOf(card);
+
+      if (draggedIndex < targetIndex) {
+        container.insertBefore(dragged, card.nextSibling);
+      } else {
+        container.insertBefore(dragged, card);
+      }
+    }
+  });
+
 });
 </script>
